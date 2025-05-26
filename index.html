@@ -12,8 +12,8 @@
 </head>
 
 <body>
-    <header class="bg-[url(assets/images/png/header-bg-img.png)] bg-center bg-no-repeat bg-cover min-h-[1080px]">
-        <nav>
+    <header class="bg-[url(assets/images/png/header-bg-img.png)] bg-center bg-no-repeat bg-cover lg:min-h-[950px] xxl:min-h-[1080px] sm:min-h-[810px] min-h-[600px] flex flex-col justify-center">
+        <nav class="fixed top-0 w-full">
             <div class="max-w-[1320px] w-full py-[26px] px-3 mx-auto flex justify-between items-center gap-40">
                 <!-- <a href="#"><img src="" alt=""></a> logo img -->
                 <h3 class="text-[21.75px] font-semibold text-[white]">Logo</h3>
@@ -35,17 +35,17 @@
                 </label>
             </div>
         </nav>
-        <div class="max-w-[1320px] w-full px-3 mx-auto flex justify-start items-center mt-[261px]">
-            <div class="">
-                <div class="">
-                    <h1 class="text-[50px] md:text-[60px] lg:text-[70px] text-white upperHeading">Vitae
+        <div class="max-w-[1320px] w-full px-3 mx-auto flex sm:justify-start justify-center items-center max-sm:mt-20">
+            <div class="flex justify-center sm:items-start items-center flex-col">
+                <div class="flex justify-center sm:items-start items-center flex-col">
+                    <h1 class="text-[40px] sm:text-[70px] text-white text-center sm:text-start upperHeading">Vitae
                         nunc,</h1>
                     <h1
-                        class="text-[50px] md:text-[60px] lg:text-[70px] text-white font-bold sm:-mt-7 mainHeading">
+                        class="text-[40px] sm:text-[70px] text-white text-center sm:text-start font-bold sm:-mt-7 -mt-2 mainHeading">
                         blandit a odio</h1>
                 </div>
                 <p
-                    class="mt-[27px] text-[20px] text-white font-medium max-w-[525px] w-full headingPara opacity-70 leading-10">
+                    class="mt-[27px] text-[20px] text-white text-center sm:text-start font-medium max-w-[525px] w-full headingPara opacity-70 leading-10">
                     Semper in egestas risus id tempus. Pellentesque dolor eros sollicitudin feugiat ut odio semper.
                     Mattis fermentum eget ut
                     vestibulum dolor diam</p>
@@ -56,6 +56,7 @@
             </div>
         </div>
     </header>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollToPlugin.min.js"
         integrity="sha512-kz526itdNcpyMs18TLPOhsnIeOIO1JywWKbbF77zR+ZKpZ4gwubXhwaURHpt5Se9AAqSK2j8ID0LnfXsB2Jkjg=="
