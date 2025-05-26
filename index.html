@@ -7,6 +7,7 @@
     <title>Name</title>
     <!-- <link rel="icon" href="logo"> -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -18,21 +19,50 @@
                 <h3 class="text-[21.75px] font-semibold text-[white]">Logo</h3>
                 <ul id="menu"
                     class="md:max-w-[634px] w-full flex justify-between items-center transition-all h-full gap-8 max-md:fixed max-md:top-0 max-md:-right-full max-md:w-full max-md:min-h-screen max-md:justify-center max-md:flex-col max-md:bg-black max-md:z-[2]">
-                    <li class="text-[18px] font-medium text-white"><a href="#">Minting</a></li>
-                    <li class="text-[18px] font-medium text-white"><a href="#">Road Map</a></li>
-                    <li class="text-[18px] font-medium text-white"><a href="#">Faq</a></li>
-                    <li class="text-[18px] font-medium text-white"><a href="#">Team</a></li>
-                    <li class="text-[18px] font-medium text-white"><a href="#">Join Us</a></li>
+                    <li class="text-[18px] font-medium text-white nav-links"><a href="#">Minting</a></li>
+                    <li class="text-[18px] font-medium text-white nav-links"><a href="#">Road Map</a></li>
+                    <li class="text-[18px] font-medium text-white nav-links"><a href="#">Faq</a></li>
+                    <li class="text-[18px] font-medium text-white nav-links"><a href="#">Team</a></li>
+                    <li class="text-[18px] font-medium text-white nav-links"><a href="#">Join Us</a></li>
                 </ul>
                 <label id="menuToggle"
                     class="w-7 h-[20px] sm:h-[30px] md:hidden flex flex-col justify-center items-center gap-[5px] relative z-50">
-                    <span id="span-1" class="sm:h-[5px] sm:w-8 w-[26px] h-1 bg-white rounded-full transition-all"></span>
+                    <span id="span-1"
+                        class="sm:h-[5px] sm:w-8 w-[26px] h-1 bg-white rounded-full transition-all"></span>
                     <span id="span-2" class="sm:h-[5px] sm:w-8 w-[26px] h-1 bg-white rounded-full"></span>
-                    <span id="span-3" class="sm:h-[5px] sm:w-8 w-[26px] h-1 bg-white rounded-full transition-all"></span>
+                    <span id="span-3"
+                        class="sm:h-[5px] sm:w-8 w-[26px] h-1 bg-white rounded-full transition-all"></span>
                 </label>
             </div>
         </nav>
+        <div class="max-w-[1320px] w-full px-3 mx-auto flex justify-start items-center mt-[261px]">
+            <div class="">
+                <div class="">
+                    <h1 class="text-[50px] md:text-[60px] lg:text-[70px] text-white upperHeading">Vitae
+                        nunc,</h1>
+                    <h1
+                        class="text-[50px] md:text-[60px] lg:text-[70px] text-white font-bold sm:-mt-7 mainHeading">
+                        blandit a odio</h1>
+                </div>
+                <p
+                    class="mt-[27px] text-[20px] text-white font-medium max-w-[525px] w-full headingPara opacity-70 leading-10">
+                    Semper in egestas risus id tempus. Pellentesque dolor eros sollicitudin feugiat ut odio semper.
+                    Mattis fermentum eget ut
+                    vestibulum dolor diam</p>
+                <button
+                    class="cursor-pointer after:absolute after:top-0 after:left-0 after:bg-[#001D49] after:flex after:justify-center after:items-center after:text-white after:z-[1] after:content-['Get_Started'] after:h-full after:w-0 after:duration-300 after:rounded-[40px] overflow-hidden hover:after:w-full relative bg-white rounded-[45px] px-10 py-[15px] mt-[46px] text-[25px] font-medium teat-#001D49 headingBtn">
+                    Get Started
+                </button>
+            </div>
+        </div>
     </header>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollToPlugin.min.js"
+        integrity="sha512-kz526itdNcpyMs18TLPOhsnIeOIO1JywWKbbF77zR+ZKpZ4gwubXhwaURHpt5Se9AAqSK2j8ID0LnfXsB2Jkjg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"
+        integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="assets/js/app.js"></script>
 </body>
 
