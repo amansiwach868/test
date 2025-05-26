@@ -12,7 +12,9 @@
 </head>
 
 <body>
-    <header class="bg-[url(assets/images/png/header-bg-img.png)] bg-center bg-no-repeat bg-cover lg:min-h-[950px] xxl:min-h-[1080px] sm:min-h-[810px] min-h-[600px] flex flex-col justify-center">
+    <!-- header -->
+    <header
+        class="bg-[url(assets/images/png/header-bg-img.png)] bg-center bg-no-repeat bg-cover lg:min-h-[950px] xxl:min-h-[1080px] sm:min-h-[810px] min-h-[600px] flex flex-col justify-center">
         <nav class="fixed top-0 w-full">
             <div class="max-w-[1320px] w-full py-[26px] px-3 mx-auto flex justify-between items-center gap-40">
                 <!-- <a href="#"><img src="" alt=""></a> logo img -->
@@ -45,18 +47,127 @@
                         blandit a odio</h1>
                 </div>
                 <p
-                    class="mt-[27px] text-[20px] text-white text-center sm:text-start font-medium max-w-[525px] w-full headingPara opacity-70 leading-10">
+                    class="mt-[27px] text-[16px] sm:text-[20px] text-white text-center sm:text-start font-medium max-w-[525px] w-full headingPara opacity-70 leading-10">
                     Semper in egestas risus id tempus. Pellentesque dolor eros sollicitudin feugiat ut odio semper.
                     Mattis fermentum eget ut
                     vestibulum dolor diam</p>
                 <button
-                    class="cursor-pointer after:absolute after:top-0 after:left-0 after:bg-[#001D49] after:flex after:justify-center after:items-center after:text-white after:z-[1] after:content-['Get_Started'] after:h-full after:w-0 after:duration-300 after:rounded-[40px] overflow-hidden hover:after:w-full relative bg-white rounded-[45px] px-10 py-[15px] mt-[46px] text-[25px] font-medium teat-#001D49 headingBtn">
+                    class="cursor-pointer after:absolute after:top-0 after:-left-full after:bg-[#001D49] after:flex after:justify-center after:items-center after:text-white after:z-[1] after:content-['Get_Started'] after:h-full after:w-full after:duration-300 after:rounded-[40px] overflow-hidden hover:after:left-0 relative bg-white rounded-[45px] px-10 py-[15px] mt-[46px] text-[25px] font-medium text-[#001D49] after:text-nowrap headingBtn">
                     Get Started
                 </button>
             </div>
         </div>
     </header>
-    
+    <!-- section--2 -->
+    <section>
+        <div class="max-w-[1320px] mx-auto px-3 flex flex-col sm:gap-y-[127px] gap-y-[70px]">
+            <div class="flex flex-wrap flex-row justify-center items-center -mx-3 gap-y-10">
+                <div class="md:w-1/2 w-full px-3 flex justify-center items-center">
+                    <img class="max-w-[574px] w-full" src="assets/images/png/section-2-img.png" alt="">
+                </div>
+                <div class="md:w-1/2 w-full px-3  flex justify-center items-center">
+                    <div class="max-w-[338px] w-full max-md:flex flex-col justify-center items-center">
+                        <h4 class="text-[35px] sm:text-[50px] font-semibold">Mint Your Bat</h4>
+                        <div class="sm:mt-12 mt-6">
+                            <h5 class="text-[25px] sm:text-[30px] font-medium">Minting: 1,5 SOL</h5>
+                            <p class="text-[16px] line-through opacity-50">Before 2 SOL</p>
+                        </div>
+                        <div class="mt-5">
+                            <h5 class="text-[25px] sm:text-[30px] font-medium">Minting: 1,5 SOL</h5>
+                            <p class="text-[16px] line-through opacity-50">Before 2 SOL</p>
+                        </div>
+                        <button
+                            class="cursor-pointer after:absolute after:top-0 after:-left-full after:bg-[#001D49] after:flex after:justify-center after:items-center after:text-white after:z-[1] after:content-['Coming_soon'] after:h-full after:w-full after:duration-300 after:rounded-[40px] overflow-hidden hover:after:left-0 relative bg-white rounded-[45px] px-5 py-[10px] sm:mt-[63px] mt-[30px] text-[25px] font-medium text-[#001D49] after:text-nowrap">
+                            Coming soon
+                        </button>
+                        <div class="flex gap-6 mt-[52px]">
+                            <a target="_blank" href="https://www.instagram.com/">
+                                <svg width="33" height="33" viewBox="0 0 33 33" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16.1287 10.8505C13.1663 10.8505 10.7488 13.268 10.7488 16.2304C10.7488 19.1927 13.1663 21.6102 16.1287 21.6102C19.091 21.6102 21.5085 19.1927 21.5085 16.2304C21.5085 13.268 19.091 10.8505 16.1287 10.8505ZM32.2642 16.2304C32.2642 14.0025 32.2844 11.7949 32.1593 9.57112C32.0342 6.98814 31.4449 4.69575 29.5561 2.80695C27.6633 0.914109 25.3749 0.328903 22.7919 0.20379C20.5641 0.0786771 18.3565 0.0988567 16.1327 0.0988567C13.9049 0.0988567 11.6972 0.0786771 9.47347 0.20379C6.89049 0.328903 4.59809 0.918145 2.70929 2.80695C0.816453 4.69979 0.231247 6.98814 0.106134 9.57112C-0.0189791 11.7989 0.00120046 14.0066 0.00120046 16.2304C0.00120046 18.4541 -0.0189791 20.6658 0.106134 22.8896C0.231247 25.4726 0.820489 27.765 2.70929 29.6538C4.60213 31.5466 6.89049 32.1318 9.47347 32.2569C11.7013 32.382 13.9089 32.3619 16.1327 32.3619C18.3605 32.3619 20.5682 32.382 22.7919 32.2569C25.3749 32.1318 27.6673 31.5426 29.5561 29.6538C31.449 27.7609 32.0342 25.4726 32.1593 22.8896C32.2884 20.6658 32.2642 18.4582 32.2642 16.2304ZM16.1287 24.508C11.5479 24.508 7.85103 20.8111 7.85103 16.2304C7.85103 11.6496 11.5479 7.95272 16.1287 7.95272C20.7094 7.95272 24.4063 11.6496 24.4063 16.2304C24.4063 20.8111 20.7094 24.508 16.1287 24.508ZM24.7453 9.54691C23.6758 9.54691 22.8121 8.68322 22.8121 7.61371C22.8121 6.54419 23.6758 5.68051 24.7453 5.68051C25.8148 5.68051 26.6785 6.54419 26.6785 7.61371C26.6788 7.86767 26.6291 8.1192 26.532 8.35389C26.435 8.58858 26.2926 8.80182 26.113 8.9814C25.9334 9.16098 25.7202 9.30336 25.4855 9.4004C25.2508 9.49744 24.9993 9.54723 24.7453 9.54691Z"
+                                        fill="white" />
+                                </svg>
+                            </a>
+                            <a target="_blank" href="https://twitter.com/">
+                                <svg width="36" height="29" viewBox="0 0 36 29" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M35.1586 3.80106C33.8959 4.36055 32.5396 4.73858 31.1136 4.90945C32.5849 4.02908 33.6857 2.64348 34.2105 1.01119C32.8281 1.83226 31.3153 2.4102 29.7376 2.71989C28.6766 1.58711 27.2714 0.836276 25.74 0.583975C24.2086 0.331673 22.6368 0.592015 21.2685 1.32458C19.9003 2.05715 18.8121 3.22095 18.1731 4.63531C17.534 6.04966 17.3798 7.63544 17.7343 9.14643C14.9334 9.0058 12.1933 8.27779 9.69197 7.00965C7.1906 5.74151 4.98384 3.96159 3.21489 1.7854C2.61004 2.82877 2.26225 4.03847 2.26225 5.3268C2.26158 6.48659 2.54718 7.62862 3.09374 8.65156C3.64029 9.6745 4.43088 10.5467 5.39538 11.1908C4.27682 11.1552 3.18294 10.853 2.20479 10.3093V10.4C2.20468 12.0266 2.76735 13.6032 3.79734 14.8623C4.82732 16.1213 6.26118 16.9852 7.85561 17.3074C6.81796 17.5882 5.73007 17.6296 4.67409 17.4283C5.12395 18.828 6.00022 20.0519 7.18024 20.9288C8.36026 21.8057 9.78495 22.2916 11.2549 22.3186C8.7596 24.2774 5.67797 25.3399 2.5057 25.3353C1.94377 25.3354 1.38231 25.3026 0.824219 25.237C4.04426 27.3073 7.79261 28.4061 11.6208 28.4018C24.5797 28.4018 31.664 17.6688 31.664 8.36012C31.664 8.0577 31.6565 7.75225 31.6429 7.44982C33.0208 6.45329 34.2103 5.21928 35.1555 3.8056L35.1586 3.80106Z"
+                                        fill="white" />
+                                </svg>
+                            </a>
+                            <a target="_blank" href="https://discord.com/app">
+                                <svg width="33" height="25" viewBox="0 0 33 25" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M27.9418 2.13431C25.8406 1.18671 23.5884 0.486304 21.2331 0.088036C21.2121 0.0840092 21.1904 0.0866042 21.171 0.0954621C21.1515 0.10432 21.1353 0.119002 21.1246 0.137476C20.8362 0.644238 20.5148 1.30481 20.2896 1.82668C17.7916 1.45346 15.2521 1.45346 12.7541 1.82668C12.5032 1.24832 12.2203 0.684373 11.9067 0.137476C11.8961 0.118775 11.88 0.10376 11.8606 0.0944359C11.8413 0.0851114 11.8195 0.0819205 11.7983 0.0852891C9.44435 0.483557 7.19207 1.18396 5.08949 2.13294C5.0714 2.14052 5.05607 2.15346 5.04554 2.17002C0.771712 8.45304 -0.399746 14.5809 0.175683 20.6318C0.177284 20.6466 0.181884 20.661 0.189204 20.674C0.196523 20.6869 0.206407 20.6983 0.218257 20.7073C2.71278 22.5235 5.49509 23.907 8.44868 24.7999C8.46927 24.8062 8.49129 24.8062 8.51187 24.7998C8.53245 24.7935 8.55063 24.781 8.56404 24.7642C9.19852 23.9127 9.76433 23.0132 10.2478 22.0683C10.2766 22.0134 10.2491 21.9475 10.1914 21.9255C9.30427 21.5914 8.44467 21.1882 7.62055 20.7197C7.60574 20.7113 7.59327 20.6993 7.58424 20.6848C7.57521 20.6703 7.56991 20.6538 7.56882 20.6368C7.56773 20.6198 7.57089 20.6028 7.578 20.5873C7.58511 20.5718 7.59596 20.5583 7.60957 20.548C7.78261 20.4203 7.95565 20.2871 8.12045 20.1539C8.13528 20.1419 8.15315 20.1343 8.17206 20.1319C8.19098 20.1294 8.21019 20.1323 8.22757 20.1402C13.6207 22.5627 19.4615 22.5627 24.7914 20.1402C24.8088 20.1318 24.8282 20.1286 24.8474 20.1308C24.8666 20.133 24.8848 20.1405 24.8999 20.1525C25.0647 20.2871 25.2364 20.4203 25.4108 20.548C25.4245 20.5581 25.4356 20.5714 25.4429 20.5868C25.4502 20.6021 25.4536 20.6191 25.4528 20.6361C25.452 20.6531 25.447 20.6696 25.4382 20.6842C25.4294 20.6988 25.4172 20.711 25.4025 20.7197C24.5813 21.1921 23.7271 21.5918 22.8303 21.9241C22.8165 21.9291 22.804 21.937 22.7935 21.9472C22.783 21.9575 22.7748 21.9698 22.7695 21.9835C22.7642 21.9971 22.7618 22.0117 22.7626 22.0264C22.7633 22.041 22.7672 22.0553 22.774 22.0683C23.2684 23.0118 23.8342 23.91 24.4563 24.7628C24.4692 24.7803 24.4873 24.7934 24.5079 24.8003C24.5286 24.8072 24.5508 24.8075 24.5717 24.8013C27.5303 23.9108 30.3172 22.5267 32.8145 20.7073C32.8266 20.6988 32.8369 20.6878 32.8444 20.675C32.852 20.6622 32.8568 20.648 32.8584 20.6332C33.5451 13.6374 31.7075 7.559 27.9844 2.17276C27.9753 2.15526 27.9602 2.14162 27.9418 2.13431ZM11.0539 16.9471C9.43061 16.9471 8.09161 15.479 8.09161 13.6786C8.09161 11.8768 9.40452 10.41 11.0539 10.41C12.7156 10.41 14.0423 11.8891 14.0162 13.6786C14.0162 15.4804 12.7033 16.9471 11.0539 16.9471ZM22.0063 16.9471C20.3816 16.9471 19.044 15.479 19.044 13.6786C19.044 11.8768 20.3555 10.41 22.0063 10.41C23.668 10.41 24.9947 11.8891 24.9686 13.6786C24.9686 15.4804 23.6694 16.9471 22.0063 16.9471Z"
+                                        fill="white" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-wrap flex-row justify-center -mx-3 gap-y-10">
+                <div class="max-w-[400px] mx-3 bg-[#031227] rounded-[20px] flex justify-center items-center">
+                    <div class="px-10 py-10 min-h-[511px]">
+                        <img src="assets/images/png/section-2-card-img-1.png" alt="">
+                        <h4 class="text-[25px] sm:text-[30px] font-semibold mt-10 mb-[25px]">ART COLLECTION</h4>
+                        <p class="text-[16px] sm:text-[20px] font-normal opacity-70">Complete the art collection in full
+                            with +70
+                            unique traits, and publish our rarity chart on our webpage.</p>
+                    </div>
+                </div>
+                <div class="max-w-[400px] mx-3 bg-[#031227] rounded-[20px] flex justify-center items-center">
+                    <div class="px-10 py-10 min-h-[511px]">
+                        <img src="assets/images/png/section-2-card-img-2.png" alt="">
+                        <h4 class="text-[25px] sm:text-[30px] font-semibold mt-10 mb-[25px]">SPECIAL BULLIES</h4>
+                        <p class="text-[16px] sm:text-[20px] font-normal opacity-70">20 Buddybullies {out of 10k} will
+                            have a very
+                            special and ersonalized resembling of famous people who are into NFTs
+                            {those will be available after the minting}.</p>
+                    </div>
+                </div>
+                <div class="max-w-[400px] mx-3 bg-[#031227] rounded-[20px] flex justify-center items-center">
+                    <div class="px-10 py-10 min-h-[511px]">
+                        <img src="assets/images/png/section-2-card-img-3.png" alt="">
+                        <h4 class="text-[25px] sm:text-[30px] font-semibold mt-10 mb-[25px]">BREEDING</h4>
+                        <p class="text-[16px] sm:text-[20px] font-normal opacity-70">Our BuddyBullies will not come
+                            alone, as we will announce the breeding function after the minting and you will be able
+                            to get a PuppyBully { for free}.</p>
+                    </div>
+                </div>
+                <div class="max-w-[400px] mx-3 bg-[#031227] rounded-[20px] flex justify-center items-center">
+                    <div class="px-10 py-10 min-h-[511px]">
+                        <img src="assets/images/png/section-2-card-img-1.png" alt="">
+                        <h4 class="text-[25px] sm:text-[30px] font-semibold mt-10 mb-[25px]">DIGITALMARKETS</h4>
+                        <p class="text-[16px] sm:text-[20px] font-normal opacity-70">Communicate with all the
+                            digital markets available in the Solana NFT world for getting our collection successfully
+                            listed.</p>
+                    </div>
+                </div>
+                <div class="max-w-[400px] mx-3 bg-[#031227] rounded-[20px] flex justify-center items-center">
+                    <div class="px-10 py-10 min-h-[511px]">
+                        <img src="assets/images/png/section-2-card-img-5.png" alt="">
+                        <h4 class="text-[25px] sm:text-[30px] font-semibold mt-10 mb-[25px]">MERCH</h4>
+                        <p class="text-[16px] sm:text-[20px] font-normal opacity-70">The team is working on the future
+                            merch thet will be available for the community members directly on our webpage.</p>
+                    </div>
+                </div>
+                <div class="max-w-[400px] mx-3 bg-[#031227] rounded-[20px] flex justify-center items-center">
+                    <div class="px-10 py-10 min-h-[511px]">
+                        <img src="assets/images/png/section-2-card-img-6.png" alt="">
+                        <h4 class="text-[25px] sm:text-[30px] font-semibold mt-10 mb-[25px]">CHARITY</h4>
+                        <p class="text-[16px] sm:text-[20px] font-normal opacity-70">We will be giving 30% of the
+                            royalties to charity permanently
+                            and we will keep spending on marketing, promotions and partnership.50% of the riyalties will
+                            go backto the community as rewards.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollToPlugin.min.js"
         integrity="sha512-kz526itdNcpyMs18TLPOhsnIeOIO1JywWKbbF77zR+ZKpZ4gwubXhwaURHpt5Se9AAqSK2j8ID0LnfXsB2Jkjg=="
