@@ -1,27 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Name</title>
     <!-- <link rel="icon" href="logo"> -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
     <header class="bg-[url(assets/images/png/header-bg-img.png)] bg-center bg-no-repeat bg-cover min-h-[1080px]">
         <nav>
-            <div class="max-w-[1320px] w-full py-[26px] px-3 mx-auto flex justify-between items-center">
+            <div class="max-w-[1320px] w-full py-[26px] px-3 mx-auto flex justify-between items-center gap-40">
                 <!-- <a href="#"><img src="" alt=""></a> logo img -->
-                 <h3 class="text-[21.75px] font-semibold text-[white]">Logo</h3>
-                 <ul class="max-w-[634px] w-full flex justify-between items-center">
+                <h3 class="text-[21.75px] font-semibold text-[white]">Logo</h3>
+                <ul id="menu"
+                    class="md:max-w-[634px] w-full flex justify-between items-center transition-all h-full gap-8 max-md:fixed max-md:top-0 max-md:-right-full max-md:w-full max-md:min-h-screen max-md:justify-center max-md:flex-col max-md:bg-black max-md:z-[2]">
                     <li class="text-[18px] font-medium text-white"><a href="#">Minting</a></li>
                     <li class="text-[18px] font-medium text-white"><a href="#">Road Map</a></li>
                     <li class="text-[18px] font-medium text-white"><a href="#">Faq</a></li>
                     <li class="text-[18px] font-medium text-white"><a href="#">Team</a></li>
                     <li class="text-[18px] font-medium text-white"><a href="#">Join Us</a></li>
-                 </ul>
+                </ul>
+                <label id="menuToggle"
+                    class="w-7 h-[20px] sm:h-[30px] md:hidden flex flex-col justify-center items-center gap-[5px] relative z-50">
+                    <span id="span-1" class="sm:h-[5px] sm:w-8 w-[26px] h-1 bg-white rounded-full transition-all"></span>
+                    <span id="span-2" class="sm:h-[5px] sm:w-8 w-[26px] h-1 bg-white rounded-full"></span>
+                    <span id="span-3" class="sm:h-[5px] sm:w-8 w-[26px] h-1 bg-white rounded-full transition-all"></span>
+                </label>
             </div>
         </nav>
     </header>
+    <script src="assets/js/app.js"></script>
 </body>
+
 </html>

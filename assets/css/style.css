@@ -1,3 +1,23 @@
 body{
     background: #000A1A;
 }
+.show {
+    right: 0 !important;
+    box-sizing: border-box;
+}
+
+.activeNavBar {
+    transform-origin: left;
+    transform: rotate(-40deg);
+}
+
+.activeNavBar3 {
+    margin-left: -30px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.activeNavBar2 {
+    transform-origin: left;
+    transform: rotate(40deg);
+}
