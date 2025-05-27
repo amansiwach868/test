@@ -13,19 +13,28 @@
 
 <body>
     <!-- header -->
-    <header
-        class="bg-[url(assets/images/png/header-bg-img.png)] bg-center bg-no-repeat bg-cover lg:min-h-[950px] xxl:min-h-[1080px] sm:min-h-[810px] min-h-[600px] flex flex-col justify-center">
-        <nav class="fixed top-0 w-full">
+    <header class="bg-[url(assets/images/png/header-bg-img.png)] bg-center bg-no-repeat bg-cover lg:min-h-[950px] 2xl:min-h-[1080px] sm:min-h-[810px] min-h-[600px] flex flex-col overflow-x-clip max-sm:pb-10">
+        <nav class="top-0 w-full">
             <div class="max-w-[1320px] w-full py-[26px] px-3 mx-auto flex justify-between items-center gap-40">
                 <!-- <a href="#"><img src="" alt=""></a> logo img -->
                 <h3 class="text-[21.75px] font-semibold text-[white]">Logo</h3>
                 <ul id="menu"
                     class="md:max-w-[634px] w-full flex justify-between items-center transition-all h-full gap-8 max-md:fixed max-md:top-0 max-md:-right-full max-md:w-full max-md:min-h-screen max-md:justify-center max-md:flex-col max-md:bg-black max-md:z-[2]">
-                    <li class="text-[18px] font-medium text-white nav-links"><a href="#">Minting</a></li>
-                    <li class="text-[18px] font-medium text-white nav-links"><a href="#">Road Map</a></li>
-                    <li class="text-[18px] font-medium text-white nav-links"><a href="#">Faq</a></li>
-                    <li class="text-[18px] font-medium text-white nav-links"><a href="#">Team</a></li>
-                    <li class="text-[18px] font-medium text-white nav-links"><a href="#">Join Us</a></li>
+                    <li class="text-[18px] font-medium text-white nav-links"><a
+                            class="relative after:w-0 after:h-px after:absolute after:bottom-0 after:right-1/2 hover:after:right-0 after:rounded-full after:duration-300 hover:after:w-full after:bg-white"
+                            href="#minting">Minting</a></li>
+                    <li class="text-[18px] font-medium text-white nav-links"><a
+                            class="relative after:w-0 after:h-px after:absolute after:bottom-0 after:right-1/2 hover:after:right-0 after:rounded-full after:duration-300 hover:after:w-full after:bg-white"
+                            href="#roadMap">Road Map</a></li>
+                    <li class="text-[18px] font-medium text-white nav-links"><a
+                            class="relative after:w-0 after:h-px after:absolute after:bottom-0 after:right-1/2 hover:after:right-0 after:rounded-full after:duration-300 hover:after:w-full after:bg-white"
+                            href="#faq">Faq</a></li>
+                    <li class="text-[18px] font-medium text-white nav-links"><a
+                            class="relative after:w-0 after:h-px after:absolute after:bottom-0 after:right-1/2 hover:after:right-0 after:rounded-full after:duration-300 hover:after:w-full after:bg-white"
+                            href="#team">Team</a></li>
+                    <li class="text-[18px] font-medium text-white nav-links"><a
+                            class="relative after:w-0 after:h-px after:absolute after:bottom-0 after:right-1/2 hover:after:right-0 after:rounded-full after:duration-300 hover:after:w-full after:bg-white"
+                            href="#join-us">Join Us</a></li>
                 </ul>
                 <label id="menuToggle"
                     class="w-7 h-[20px] sm:h-[30px] md:hidden flex flex-col justify-center items-center gap-[5px] relative z-50">
@@ -37,35 +46,37 @@
                 </label>
             </div>
         </nav>
-        <div class="max-w-[1320px] w-full px-3 mx-auto flex sm:justify-start justify-center items-center max-sm:mt-20">
-            <div class="flex justify-center sm:items-start items-center flex-col">
-                <div class="flex justify-center sm:items-start items-center flex-col">
-                    <h1 class="text-[40px] sm:text-[70px] text-white text-center sm:text-start upperHeading">Vitae
+        <div
+            class="max-w-[1320px] w-full grow px-3 mx-auto flex sm:justify-start justify-center items-center max-sm:mt-20">
+            <div class="flex justify-center items-start flex-col">
+                <div class="flex items-start flex-col">
+                    <h1 class="text-[40px] sm:text-[70px] text-white upperHeading">Vitae
                         nunc,</h1>
                     <h1
-                        class="text-[40px] sm:text-[70px] text-white text-center sm:text-start font-bold sm:-mt-7 -mt-2 mainHeading">
+                        class="text-[40px] sm:text-[70px] text-white font-bold sm:-mt-7 -mt-2 mainHeading">
                         blandit a odio</h1>
                 </div>
                 <p
-                    class="mt-[27px] text-[16px] sm:text-[20px] text-white text-center sm:text-start font-medium max-w-[525px] w-full headingPara opacity-70 leading-10">
+                    class="mt-[27px] text-[16px] sm:text-[20px] text-white font-medium max-w-[525px] w-full headingPara opacity-70 leading-10">
                     Semper in egestas risus id tempus. Pellentesque dolor eros sollicitudin feugiat ut odio semper.
                     Mattis fermentum eget ut
                     vestibulum dolor diam</p>
                 <button
-                    class="cursor-pointer after:absolute after:top-0 after:-left-full after:bg-[#001D49] after:flex after:justify-center after:items-center after:text-white after:z-[1] after:content-['Get_Started'] after:h-full after:w-full after:duration-300 after:rounded-[40px] overflow-hidden hover:after:left-0 relative bg-white rounded-[45px] px-10 py-[15px] mt-[46px] text-[25px] font-medium text-[#001D49] after:text-nowrap headingBtn">
+                    class="cursor-pointer overflow-hidden bg-white rounded-[45px] px-10 py-[15px] mt-[46px] text-[25px] font-medium text-[#001D49] headingBtn">
                     Get Started
                 </button>
             </div>
         </div>
     </header>
-    <!-- section--2 -->
-    <section>
+    <!-- section--minting -->
+    <section id="minting" class="relative overflow-x-clip">
         <div class="max-w-[1320px] mx-auto px-3 flex flex-col sm:gap-y-[127px] gap-y-[70px]">
-            <div class="flex flex-wrap flex-row justify-center items-center -mx-3 gap-y-10">
-                <div class="md:w-1/2 w-full px-3 flex justify-center items-center">
-                    <img class="max-w-[574px] w-full" src="assets/images/png/section-2-img.png" alt="">
+            <div class="grid lg:grid-cols-2 -mx-3 gap-10">
+                <div class="w-full px-3 flex justify-center items-center">
+                    <img class="relative max-w-[574px] w-full" src="assets/images/png/section-2-img.png" alt="">
+                    <div class="w-[337px] h-[337px] absolute bg-[#009DFF] blur-[200px] z-[-1] rounded-full"></div>
                 </div>
-                <div class="md:w-1/2 w-full px-3  flex justify-center items-center">
+                <div class="w-full px-3 flex justify-center items-end">
                     <div class="max-w-[338px] w-full max-md:flex flex-col justify-center items-center">
                         <h4 class="text-[35px] sm:text-[50px] font-semibold">Mint Your Bat</h4>
                         <div class="sm:mt-12 mt-6">
@@ -77,30 +88,32 @@
                             <p class="text-[16px] line-through opacity-50">Before 2 SOL</p>
                         </div>
                         <button
-                            class="cursor-pointer after:absolute after:top-0 after:-left-full after:bg-[#001D49] after:flex after:justify-center after:items-center after:text-white after:z-[1] after:content-['Coming_soon'] after:h-full after:w-full after:duration-300 after:rounded-[40px] overflow-hidden hover:after:left-0 relative bg-white rounded-[45px] px-5 py-[10px] sm:mt-[63px] mt-[30px] text-[25px] font-medium text-[#001D49] after:text-nowrap">
+                            class="cursor-pointer bg-white rounded-[45px] px-5 py-[10px] sm:mt-[63px] mt-[30px] text-[25px] font-medium text-[#001D49]">
                             Coming soon
                         </button>
                         <div class="flex gap-6 mt-[52px]">
-                            <a target="_blank" href="https://www.instagram.com/">
+                            <a target="_blank" class="group hover:scale-125 duration-300"
+                                href="https://www.instagram.com/">
                                 <svg width="33" height="33" viewBox="0 0 33 33" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
-                                    <path
+                                    <path class="group-hover:fill-[#009DFF] duration-300"
                                         d="M16.1287 10.8505C13.1663 10.8505 10.7488 13.268 10.7488 16.2304C10.7488 19.1927 13.1663 21.6102 16.1287 21.6102C19.091 21.6102 21.5085 19.1927 21.5085 16.2304C21.5085 13.268 19.091 10.8505 16.1287 10.8505ZM32.2642 16.2304C32.2642 14.0025 32.2844 11.7949 32.1593 9.57112C32.0342 6.98814 31.4449 4.69575 29.5561 2.80695C27.6633 0.914109 25.3749 0.328903 22.7919 0.20379C20.5641 0.0786771 18.3565 0.0988567 16.1327 0.0988567C13.9049 0.0988567 11.6972 0.0786771 9.47347 0.20379C6.89049 0.328903 4.59809 0.918145 2.70929 2.80695C0.816453 4.69979 0.231247 6.98814 0.106134 9.57112C-0.0189791 11.7989 0.00120046 14.0066 0.00120046 16.2304C0.00120046 18.4541 -0.0189791 20.6658 0.106134 22.8896C0.231247 25.4726 0.820489 27.765 2.70929 29.6538C4.60213 31.5466 6.89049 32.1318 9.47347 32.2569C11.7013 32.382 13.9089 32.3619 16.1327 32.3619C18.3605 32.3619 20.5682 32.382 22.7919 32.2569C25.3749 32.1318 27.6673 31.5426 29.5561 29.6538C31.449 27.7609 32.0342 25.4726 32.1593 22.8896C32.2884 20.6658 32.2642 18.4582 32.2642 16.2304ZM16.1287 24.508C11.5479 24.508 7.85103 20.8111 7.85103 16.2304C7.85103 11.6496 11.5479 7.95272 16.1287 7.95272C20.7094 7.95272 24.4063 11.6496 24.4063 16.2304C24.4063 20.8111 20.7094 24.508 16.1287 24.508ZM24.7453 9.54691C23.6758 9.54691 22.8121 8.68322 22.8121 7.61371C22.8121 6.54419 23.6758 5.68051 24.7453 5.68051C25.8148 5.68051 26.6785 6.54419 26.6785 7.61371C26.6788 7.86767 26.6291 8.1192 26.532 8.35389C26.435 8.58858 26.2926 8.80182 26.113 8.9814C25.9334 9.16098 25.7202 9.30336 25.4855 9.4004C25.2508 9.49744 24.9993 9.54723 24.7453 9.54691Z"
                                         fill="white" />
                                 </svg>
                             </a>
-                            <a target="_blank" href="https://twitter.com/">
+                            <a target="_blank" class="group hover:scale-125 duration-300" href="https://twitter.com/">
                                 <svg width="36" height="29" viewBox="0 0 36 29" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
-                                    <path
+                                    <path class="group-hover:fill-[#009DFF] duration-300"
                                         d="M35.1586 3.80106C33.8959 4.36055 32.5396 4.73858 31.1136 4.90945C32.5849 4.02908 33.6857 2.64348 34.2105 1.01119C32.8281 1.83226 31.3153 2.4102 29.7376 2.71989C28.6766 1.58711 27.2714 0.836276 25.74 0.583975C24.2086 0.331673 22.6368 0.592015 21.2685 1.32458C19.9003 2.05715 18.8121 3.22095 18.1731 4.63531C17.534 6.04966 17.3798 7.63544 17.7343 9.14643C14.9334 9.0058 12.1933 8.27779 9.69197 7.00965C7.1906 5.74151 4.98384 3.96159 3.21489 1.7854C2.61004 2.82877 2.26225 4.03847 2.26225 5.3268C2.26158 6.48659 2.54718 7.62862 3.09374 8.65156C3.64029 9.6745 4.43088 10.5467 5.39538 11.1908C4.27682 11.1552 3.18294 10.853 2.20479 10.3093V10.4C2.20468 12.0266 2.76735 13.6032 3.79734 14.8623C4.82732 16.1213 6.26118 16.9852 7.85561 17.3074C6.81796 17.5882 5.73007 17.6296 4.67409 17.4283C5.12395 18.828 6.00022 20.0519 7.18024 20.9288C8.36026 21.8057 9.78495 22.2916 11.2549 22.3186C8.7596 24.2774 5.67797 25.3399 2.5057 25.3353C1.94377 25.3354 1.38231 25.3026 0.824219 25.237C4.04426 27.3073 7.79261 28.4061 11.6208 28.4018C24.5797 28.4018 31.664 17.6688 31.664 8.36012C31.664 8.0577 31.6565 7.75225 31.6429 7.44982C33.0208 6.45329 34.2103 5.21928 35.1555 3.8056L35.1586 3.80106Z"
                                         fill="white" />
                                 </svg>
                             </a>
-                            <a target="_blank" href="https://discord.com/app">
+                            <a target="_blank" class="group hover:scale-125 duration-300"
+                                href="https://discord.com/app">
                                 <svg width="33" height="25" viewBox="0 0 33 25" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
-                                    <path
+                                    <path class="group-hover:fill-[#009DFF] duration-300"
                                         d="M27.9418 2.13431C25.8406 1.18671 23.5884 0.486304 21.2331 0.088036C21.2121 0.0840092 21.1904 0.0866042 21.171 0.0954621C21.1515 0.10432 21.1353 0.119002 21.1246 0.137476C20.8362 0.644238 20.5148 1.30481 20.2896 1.82668C17.7916 1.45346 15.2521 1.45346 12.7541 1.82668C12.5032 1.24832 12.2203 0.684373 11.9067 0.137476C11.8961 0.118775 11.88 0.10376 11.8606 0.0944359C11.8413 0.0851114 11.8195 0.0819205 11.7983 0.0852891C9.44435 0.483557 7.19207 1.18396 5.08949 2.13294C5.0714 2.14052 5.05607 2.15346 5.04554 2.17002C0.771712 8.45304 -0.399746 14.5809 0.175683 20.6318C0.177284 20.6466 0.181884 20.661 0.189204 20.674C0.196523 20.6869 0.206407 20.6983 0.218257 20.7073C2.71278 22.5235 5.49509 23.907 8.44868 24.7999C8.46927 24.8062 8.49129 24.8062 8.51187 24.7998C8.53245 24.7935 8.55063 24.781 8.56404 24.7642C9.19852 23.9127 9.76433 23.0132 10.2478 22.0683C10.2766 22.0134 10.2491 21.9475 10.1914 21.9255C9.30427 21.5914 8.44467 21.1882 7.62055 20.7197C7.60574 20.7113 7.59327 20.6993 7.58424 20.6848C7.57521 20.6703 7.56991 20.6538 7.56882 20.6368C7.56773 20.6198 7.57089 20.6028 7.578 20.5873C7.58511 20.5718 7.59596 20.5583 7.60957 20.548C7.78261 20.4203 7.95565 20.2871 8.12045 20.1539C8.13528 20.1419 8.15315 20.1343 8.17206 20.1319C8.19098 20.1294 8.21019 20.1323 8.22757 20.1402C13.6207 22.5627 19.4615 22.5627 24.7914 20.1402C24.8088 20.1318 24.8282 20.1286 24.8474 20.1308C24.8666 20.133 24.8848 20.1405 24.8999 20.1525C25.0647 20.2871 25.2364 20.4203 25.4108 20.548C25.4245 20.5581 25.4356 20.5714 25.4429 20.5868C25.4502 20.6021 25.4536 20.6191 25.4528 20.6361C25.452 20.6531 25.447 20.6696 25.4382 20.6842C25.4294 20.6988 25.4172 20.711 25.4025 20.7197C24.5813 21.1921 23.7271 21.5918 22.8303 21.9241C22.8165 21.9291 22.804 21.937 22.7935 21.9472C22.783 21.9575 22.7748 21.9698 22.7695 21.9835C22.7642 21.9971 22.7618 22.0117 22.7626 22.0264C22.7633 22.041 22.7672 22.0553 22.774 22.0683C23.2684 23.0118 23.8342 23.91 24.4563 24.7628C24.4692 24.7803 24.4873 24.7934 24.5079 24.8003C24.5286 24.8072 24.5508 24.8075 24.5717 24.8013C27.5303 23.9108 30.3172 22.5267 32.8145 20.7073C32.8266 20.6988 32.8369 20.6878 32.8444 20.675C32.852 20.6622 32.8568 20.648 32.8584 20.6332C33.5451 13.6374 31.7075 7.559 27.9844 2.17276C27.9753 2.15526 27.9602 2.14162 27.9418 2.13431ZM11.0539 16.9471C9.43061 16.9471 8.09161 15.479 8.09161 13.6786C8.09161 11.8768 9.40452 10.41 11.0539 10.41C12.7156 10.41 14.0423 11.8891 14.0162 13.6786C14.0162 15.4804 12.7033 16.9471 11.0539 16.9471ZM22.0063 16.9471C20.3816 16.9471 19.044 15.479 19.044 13.6786C19.044 11.8768 20.3555 10.41 22.0063 10.41C23.668 10.41 24.9947 11.8891 24.9686 13.6786C24.9686 15.4804 23.6694 16.9471 22.0063 16.9471Z"
                                         fill="white" />
                                 </svg>
@@ -109,9 +122,9 @@
                     </div>
                 </div>
             </div>
-            <div class="flex flex-wrap flex-row justify-center -mx-3 gap-y-10">
-                <div class="max-w-[400px] mx-3 bg-[#031227] rounded-[20px] flex justify-center items-center">
-                    <div class="px-10 py-10 min-h-[511px]">
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div data-aos="fade-up" class="bg-[#031227] rounded-[20px] flex justify-center items-center">
+                    <div class="xl:p-10 p-6 ">
                         <img src="assets/images/png/section-2-card-img-1.png" alt="">
                         <h4 class="text-[25px] sm:text-[30px] font-semibold mt-10 mb-[25px]">ART COLLECTION</h4>
                         <p class="text-[16px] sm:text-[20px] font-normal opacity-70">Complete the art collection in full
@@ -119,8 +132,8 @@
                             unique traits, and publish our rarity chart on our webpage.</p>
                     </div>
                 </div>
-                <div class="max-w-[400px] mx-3 bg-[#031227] rounded-[20px] flex justify-center items-center">
-                    <div class="px-10 py-10 min-h-[511px]">
+                <div data-aos="fade-up" class="bg-[#031227] rounded-[20px] flex justify-center items-center">
+                    <div class="xl:p-10 p-6 ">
                         <img src="assets/images/png/section-2-card-img-2.png" alt="">
                         <h4 class="text-[25px] sm:text-[30px] font-semibold mt-10 mb-[25px]">SPECIAL BULLIES</h4>
                         <p class="text-[16px] sm:text-[20px] font-normal opacity-70">20 Buddybullies {out of 10k} will
@@ -129,8 +142,8 @@
                             {those will be available after the minting}.</p>
                     </div>
                 </div>
-                <div class="max-w-[400px] mx-3 bg-[#031227] rounded-[20px] flex justify-center items-center">
-                    <div class="px-10 py-10 min-h-[511px]">
+                <div data-aos="fade-up" class="bg-[#031227] rounded-[20px] flex justify-center items-center">
+                    <div class="xl:p-10 p-6 ">
                         <img src="assets/images/png/section-2-card-img-3.png" alt="">
                         <h4 class="text-[25px] sm:text-[30px] font-semibold mt-10 mb-[25px]">BREEDING</h4>
                         <p class="text-[16px] sm:text-[20px] font-normal opacity-70">Our BuddyBullies will not come
@@ -138,8 +151,8 @@
                             to get a PuppyBully { for free}.</p>
                     </div>
                 </div>
-                <div class="max-w-[400px] mx-3 bg-[#031227] rounded-[20px] flex justify-center items-center">
-                    <div class="px-10 py-10 min-h-[511px]">
+                <div data-aos="fade-up" class="bg-[#031227] rounded-[20px] flex justify-center items-center">
+                    <div class="xl:p-10 p-6 ">
                         <img src="assets/images/png/section-2-card-img-1.png" alt="">
                         <h4 class="text-[25px] sm:text-[30px] font-semibold mt-10 mb-[25px]">DIGITALMARKETS</h4>
                         <p class="text-[16px] sm:text-[20px] font-normal opacity-70">Communicate with all the
@@ -147,16 +160,16 @@
                             listed.</p>
                     </div>
                 </div>
-                <div class="max-w-[400px] mx-3 bg-[#031227] rounded-[20px] flex justify-center items-center">
-                    <div class="px-10 py-10 min-h-[511px]">
+                <div data-aos="fade-up" class="bg-[#031227] rounded-[20px] flex justify-center items-center">
+                    <div class="xl:p-10 p-6 ">
                         <img src="assets/images/png/section-2-card-img-5.png" alt="">
                         <h4 class="text-[25px] sm:text-[30px] font-semibold mt-10 mb-[25px]">MERCH</h4>
                         <p class="text-[16px] sm:text-[20px] font-normal opacity-70">The team is working on the future
                             merch thet will be available for the community members directly on our webpage.</p>
                     </div>
                 </div>
-                <div class="max-w-[400px] mx-3 bg-[#031227] rounded-[20px] flex justify-center items-center">
-                    <div class="px-10 py-10 min-h-[511px]">
+                <div data-aos="fade-up" class="bg-[#031227] rounded-[20px] flex justify-center items-center">
+                    <div class="xl:p-10 p-6 ">
                         <img src="assets/images/png/section-2-card-img-6.png" alt="">
                         <h4 class="text-[25px] sm:text-[30px] font-semibold mt-10 mb-[25px]">CHARITY</h4>
                         <p class="text-[16px] sm:text-[20px] font-normal opacity-70">We will be giving 30% of the
@@ -167,16 +180,17 @@
                 </div>
             </div>
         </div>
+        <div class="w-[337px] h-[337px] bg-[#009DFF] absolute top-100 right-[-10%] blur-[200px] rounded-full z-[-1]"></div>
     </section>
-    <!-- section-3 -->
-    <section class="flex items-center justify-center py-[70px] sm:py-[141px]">
+    <!-- section-roadMap -->
+    <section id="roadMap" class="flex items-center justify-center py-[70px] sm:py-[141px] relative overflow-x-clip">
         <div class="max-w-[938px] w-full text-white px-3">
             <h2 class="text-[35px] sm:text-[50px] font-semibold text-center mb-16">Roadmap</h2>
-            <div class="relative pb-[145px]">
+            <div class="relative md:pb-[145px] pb-[70px]">
                 <div
                     class="absolute left-5 md:left-1/2 transform md:-translate-x-1/2 top-0 bottom-0 border-l-2 border-dashed border-white">
                 </div>
-                <div class="mb-[145px] relative md:flex md:items-start md:justify-between">
+                <div class="md:mb-[145px] mb-[70px] relative md:flex md:items-start md:justify-between">
                     <div class="hidden md:block w-1/2 pr-8 text-right"></div>
                     <div
                         class="absolute -left-[11px] md:left-1/2 w-[65px] h-[65px] bg-[#001930] md:-translate-x-1/2 flex justify-center items-center rounded-[50px]">
@@ -186,7 +200,7 @@
                     </div>
                     <div class="ml-20 mt-[10px] md:ml-0 md:w-1/2 md:pl-[66px]">
                         <h3 class="text-[30px] font-semibold">Q-4, 2021</h3>
-                        <p class="text-[16px] opacity-70 mt-6">
+                        <p data-aos="fade-up" class="text-[16px] opacity-70 mt-6">
                             Blandit sed penatibus elit tortor fermentum velit donec. Id eleifend volutpat dolor netus
                             auctor at.
                             Volutpat sed auctor non in commodo, felis viverra risus tristique.
@@ -196,7 +210,7 @@
                 <div class="relative md:flex md:items-start md:justify-between">
                     <div class="max-md:hidden ml-20 mt-[10px] md:ml-0 md:w-1/2 md:pr-[66px]">
                         <h3 class="text-[30px] font-semibold text-right">Q-1, 2022</h3>
-                        <p class="text-[16px] opacity-70 mt-6 text-right">
+                        <p data-aos="fade-up" class="text-[16px] opacity-70 mt-6 text-right">
                             Blandit sed penatibus elit tortor fermentum velit donec. Id eleifend volutpat dolor netus
                             auctor at.
                             Volutpat sed auctor non in commodo, felis viverra risus tristique.
@@ -210,7 +224,7 @@
                     </div>
                     <div class="ml-20 mt-[10px] md:hidden">
                         <h3 class="text-[30px] font-semibold">Q-1, 2022</h3>
-                        <p class="text-[16px] opacity-70 mt-6">
+                        <p data-aos="fade-up" class="text-[16px] opacity-70 mt-6">
                             Blandit sed penatibus elit tortor fermentum velit donec. Id eleifend volutpat dolor netus
                             auctor at.
                             Volutpat sed auctor non in commodo, felis viverra risus tristique.
@@ -232,7 +246,7 @@
                 <!-- Content -->
                 <div class="ml-20 mt-[10px] md:ml-0 md:w-1/2 md:pl-[66px]">
                     <h3 class="text-[30px] font-semibold">Q-2, 2022</h3>
-                    <p class="text-[16px] opacity-70 mt-6">
+                    <p data-aos="fade-up" class="text-[16px] opacity-70 mt-6">
                         Blandit sed penatibus elit tortor fermentum velit donec. Id eleifend volutpat dolor netus
                         auctor at.
                         Volutpat sed auctor non in commodo, felis viverra risus tristique.
@@ -245,95 +259,131 @@
                 stronger together !!
             </p>
         </div>
+        <div class="w-[337px] h-[337px] bg-[#009DFF] absolute left-[-10%] top-75 blur-[200px] rounded-full"></div>
+
     </section>
-    <!-- section-4 -->
-    <section class="sm:pb-[121px] pb-[50px]">
+    <!-- section-faq -->
+    <section id="faq" class="sm:pb-[121px] pb-[50px] relative overflow-x-clip">
         <div class="max-w-[1320px] mx-auto px-3">
             <h2 class="text-[35px] sm:text-[50px] font-semibold text-center">FAQs</h2>
             <div class="max-w-[830px] w-full mx-auto flex flex-col gap-[26px] sm:mt-[47px] mt-[30px] ">
-                <div class="w-full">
+                <div  class="w-full accordion-items accordin cursor-pointer">
                     <div class="w-full px-8 py-5 bg-[#031227] rounded-[150px] flex justify-between items-center">
-                        <h4 class="lg:text-[20px] sm:text-[16px] text-[12px] font-medium">What’s the blockchain the buddybullies call home ?</h4>
-                        <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <h4 class="lg:text-[20px] sm:text-[16px] text-[12px] font-medium">What’s the blockchain the
+                            buddybullies call home ?</h4>
+                        <svg class="duration-300" width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M2 1.04907e-06L7 5L12 1.74846e-07L14 1L7 8L-6.11959e-07 1L2 1.04907e-06Z"
                                 fill="white" />
                         </svg>
                     </div>
-                    <p class="pl-[30px] mt-5 opacity-70 lg:text-[16px] sm:text-[13px] text-[10px] font-medium">Hac varius turpis sit pulvinar lorem
-                        magna
-                        velit sit. Dapibus mattis adipiscing ornare arcu vitae enim. Proin turpis
-                        enim egesta sed in accumsan, feugiat neque turpis. Fringilla dui donec nullam faucibus vitae
-                        non,
-                        integer. Non.</p>
+                    <div class="grid grid-rows-[0fr] duration-300 active-accordin">
+                        <div class="overflow-hidden">
+                            <p class="pl-[30px] mt-5 opacity-70 lg:text-[16px] sm:text-[13px] text-[10px] font-medium ">
+                                Hac
+                                varius turpis sit pulvinar lorem
+                                magna
+                                velit sit. Dapibus mattis adipiscing ornare arcu vitae enim. Proin turpis
+                                enim egesta sed in accumsan, feugiat neque turpis. Fringilla dui donec nullam faucibus
+                                vitae
+                                non,
+                                integer. Non.</p>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="w-full">
+                <div  class="w-full accordion-items cursor-pointer">
                     <div class="w-full px-8 py-5 bg-[#031227] rounded-[150px] flex justify-between items-center">
-                        <h4 class="lg:text-[20px] sm:text-[16px] text-[12px] font-medium">What’s the blockchain the buddybullies call home ?</h4>
-                        <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <h4 class="lg:text-[20px] sm:text-[16px] text-[12px] font-medium">What’s the blockchain the
+                            buddybullies call home ?</h4>
+                        <svg class="duration-300" width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M2 1.04907e-06L7 5L12 1.74846e-07L14 1L7 8L-6.11959e-07 1L2 1.04907e-06Z"
                                 fill="white" />
                         </svg>
                     </div>
-                    <p class="pl-[30px] mt-5 opacity-70 lg:text-[16px] sm:text-[13px] text-[10px] font-medium">Hac varius turpis sit pulvinar lorem
-                        magna
-                        velit sit. Dapibus mattis adipiscing ornare arcu vitae enim. Proin turpis
-                        enim egesta sed in accumsan, feugiat neque turpis. Fringilla dui donec nullam faucibus vitae
-                        non,
-                        integer. Non.</p>
+                    <div class="grid grid-rows-[0fr] duration-300 active-accordin">
+                        <div class="overflow-hidden">
+                            <p class="pl-[30px] mt-5 opacity-70 lg:text-[16px] sm:text-[13px] text-[10px] font-medium ">
+                                Hac
+                                varius turpis sit pulvinar lorem
+                                magna
+                                velit sit. Dapibus mattis adipiscing ornare arcu vitae enim. Proin turpis
+                                enim egesta sed in accumsan, feugiat neque turpis. Fringilla dui donec nullam faucibus
+                                vitae
+                                non,
+                                integer. Non.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="w-full">
+                <div  class="w-full accordion-items cursor-pointer">
                     <div class="w-full px-8 py-5 bg-[#031227] rounded-[150px] flex justify-between items-center">
-                        <h4 class="lg:text-[20px] sm:text-[16px] text-[12px] font-medium">What’s the blockchain the buddybullies call home ?</h4>
-                        <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <h4 class="lg:text-[20px] sm:text-[16px] text-[12px] font-medium">What’s the blockchain the
+                            buddybullies call home ?</h4>
+                        <svg class="duration-300" width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M2 1.04907e-06L7 5L12 1.74846e-07L14 1L7 8L-6.11959e-07 1L2 1.04907e-06Z"
                                 fill="white" />
                         </svg>
                     </div>
-                    <p class="pl-[30px] mt-5 opacity-70 lg:text-[16px] sm:text-[13px] text-[10px] font-medium">Hac varius turpis sit pulvinar lorem
-                        magna
-                        velit sit. Dapibus mattis adipiscing ornare arcu vitae enim. Proin turpis
-                        enim egesta sed in accumsan, feugiat neque turpis. Fringilla dui donec nullam faucibus vitae
-                        non,
-                        integer. Non.</p>
+                    <div class="grid grid-rows-[0fr] duration-300 active-accordin">
+                        <div class="overflow-hidden">
+                            <p class="pl-[30px] mt-5 opacity-70 lg:text-[16px] sm:text-[13px] text-[10px] font-medium ">
+                                Hac
+                                varius turpis sit pulvinar lorem
+                                magna
+                                velit sit. Dapibus mattis adipiscing ornare arcu vitae enim. Proin turpis
+                                enim egesta sed in accumsan, feugiat neque turpis. Fringilla dui donec nullam faucibus
+                                vitae
+                                non,
+                                integer. Non.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="w-full">
+                <div  class="w-full accordion-items cursor-pointer">
                     <div class="w-full px-8 py-5 bg-[#031227] rounded-[150px] flex justify-between items-center">
-                        <h4 class="lg:text-[20px] sm:text-[16px] text-[12px] font-medium">What’s the blockchain the buddybullies call home ?</h4>
-                        <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <h4 class="lg:text-[20px] sm:text-[16px] text-[12px] font-medium">What’s the blockchain the
+                            buddybullies call home ?</h4>
+                        <svg class="duration-300" width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M2 1.04907e-06L7 5L12 1.74846e-07L14 1L7 8L-6.11959e-07 1L2 1.04907e-06Z"
                                 fill="white" />
                         </svg>
                     </div>
-                    <p class="pl-[30px] mt-5 opacity-70 lg:text-[16px] sm:text-[13px] text-[10px] font-medium">Hac varius turpis sit pulvinar lorem
-                        magna
-                        velit sit. Dapibus mattis adipiscing ornare arcu vitae enim. Proin turpis
-                        enim egesta sed in accumsan, feugiat neque turpis. Fringilla dui donec nullam faucibus vitae
-                        non,
-                        integer. Non.</p>
+                    <div class="grid grid-rows-[0fr] duration-300 active-accordin">
+                        <div class="overflow-hidden">
+                            <p class="pl-[30px] mt-5 opacity-70 lg:text-[16px] sm:text-[13px] text-[10px] font-medium ">
+                                Hac
+                                varius turpis sit pulvinar lorem
+                                magna
+                                velit sit. Dapibus mattis adipiscing ornare arcu vitae enim. Proin turpis
+                                enim egesta sed in accumsan, feugiat neque turpis. Fringilla dui donec nullam faucibus
+                                vitae
+                                non,
+                                integer. Non.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="w-[337px] h-[337px] absolute -top-[10%] right-[-20%] bg-[#009DFF] blur-[200px] pointer-events-none z-[-1] rounded-full"></div>
     </section>
-    <!-- section-5 -->
-    <section>
-        <div class="max-w-[1320px] mx-auto px-3">
+    <!-- section-team -->
+    <section id="team" class="overflow-x-clip">
+        <div class="max-w-[1320px] mx-auto px-3 pb-11">
             <h2 class="text-[35px] sm:text-[50px] font-semibold text-center">Our Team</h2>
-            <div class="flex flex-wrap flex-row justify-center -mx-3 gap-y-10 gap-x-[51px] mt-[26px]">
-                <div class="max-w-[311px] flex justify-center items-center">
+            <div class="grid md:grid-cols-3 sm:grid-cols-2 -mx-3 gap-y-10 gap-x-[51px] mt-[26px]">
+                <div data-aos="fade-up-right" class="flex justify-center items-center">
                     <div class="flex flex-col justify-center items-center">
                         <img src="assets/images/png/section-5-card-img-1.png" alt="">
                         <h4 class="text-[25px] sm:text-[30px] font-semibold mt-8 ">Prime Bullister</h4>
                         <p class="text-[16px] sm:text-[18px] font-normal opacity-70">Pruduct Designer</p>
                     </div>
                 </div>
-                <div class="max-w-[311px] flex justify-center items-center">
+                <div data-aos="fade-up" class="flex justify-center items-center">
                     <div class="flex flex-col justify-center items-center">
                         <img src="assets/images/png/section-5-card-img-2.png" alt="">
                         <h4 class="text-[25px] sm:text-[30px] font-semibold mt-8 ">Solvador Bulli</h4>
                         <p class="text-[16px] sm:text-[18px] font-normal opacity-70">Artist</p>
                     </div>
                 </div>
-                <div class="max-w-[311px] flex justify-center items-center">
+                <div data-aos="fade-up-left" class="flex justify-center items-center">
                     <div class="flex flex-col justify-center items-center">
                         <img src="assets/images/png/section-5-card-img-3.png" alt="">
                         <h4 class="text-[25px] sm:text-[30px] font-semibold mt-8 ">Meta Bully</h4>
@@ -342,7 +392,73 @@
                 </div>
             </div>
         </div>
-     </section>
+    </section>
+    <!-- footer -->
+    <footer id="join-us"class="bg-[url(assets/images/png/footer-bg-img.png)] bg-center bg-no-repeat bg-cover lg:pb-[56px] md:pb-[45px] sm:pb-[30px] pb-[20px] lg:pt-[180px] md:pt-[100px] sm:pt-[70px] pt-[50px] overflow-x-clip">
+        <div class="max-w-[1320px] w-full px-3 mx-auto">
+            <h2 class="text-[35px] sm:text-[50px] font-semibold text-center pb-20">JOIN US</h2>
+            <div class="w-full grid md:grid-cols-2 gap-y-10">
+                <div class="md:max-w-[388px] w-full flex flex-col">
+                    <h4 class="text-[25px] sm:text-[30px] font-semibold">LOGO</h4>
+                    <p class="text-[16px] opacity-70 my-[21px] ">Aenean arcu sed rhoncus sapien
+                        euismod cursus morbi lacus, blandit. Placerat tortor duis fames cras pellentesque dui
+                        adipiscing neque gravida. Sociis neque consectetur id quis pharetra.</p>
+                    <a href="mailto:Email@gmail.com"
+                        class="text-[16px] relative after:w-0 after:h-px after:absolute after:bottom-0 after:right-1/2 hover:after:right-0 after:rounded-full after:duration-300 hover:after:w-full after:bg-white">Email@gmail.com</a>
+                </div>
+                <div class="flex justify-between md:max-w-[338px] w-full md:ml-auto">
+                    <ul>
+                        <li class="text-[16px] font-medium"><a href="#">Resources</a></li>
+                        <li class="relative text-[14px] mt-[10px] mb-[6px] "><a href="#"
+                                class="relative after:w-0 after:h-px after:absolute after:bottom-0 after:right-1/2 hover:after:right-0 after:rounded-full after:duration-300 hover:after:w-full after:bg-white">Roadmap</a>
+                        </li>
+                        <li class="text-[14px] mt-[10px] mb-[6px]"><a href="#"
+                                class="relative after:w-0 after:h-px after:absolute after:bottom-0 after:right-1/2 hover:after:right-0 after:rounded-full after:duration-300 hover:after:w-full after:bg-white">FAQs</a>
+                        </li>
+                        <li class="text-[14px] mt-[10px] mb-[6px]"><a href="#"
+                                class="relative after:w-0 after:h-px after:absolute after:bottom-0 after:right-1/2 hover:after:right-0 after:rounded-full after:duration-300 hover:after:w-full after:bg-white">Mint
+                                your Bully</a></li>
+                    </ul>
+                    <ul>
+                        <li class="text-[16px] font-medium"><a href="#">Resources</a></li>
+                        <li class="text-[14px] mt-[10px] mb-[6px]">
+                            <div class="flex gap-6">
+                                <a class="group hover:scale-125 duration-300" target="_blank"
+                                    href="https://www.instagram.com/">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path class="group-hover:fill-[#009DFF] duration-300"
+                                            d="M8.77751 5.85189C7.16534 5.85189 5.84969 7.16754 5.84969 8.7797C5.84969 10.3919 7.16534 11.7075 8.77751 11.7075C10.3897 11.7075 11.7053 10.3919 11.7053 8.7797C11.7053 7.16754 10.3897 5.85189 8.77751 5.85189ZM17.5588 8.7797C17.5588 7.56729 17.5697 6.36585 17.5016 5.15563C17.4336 3.74993 17.1129 2.50236 16.085 1.47444C15.0548 0.444328 13.8095 0.125849 12.4038 0.0577599C11.1914 -0.0103288 9.98993 0.000653309 8.7797 0.000653309C7.56729 0.000653309 6.36585 -0.0103288 5.15563 0.0577599C3.74993 0.125849 2.50236 0.446524 1.47444 1.47444C0.444328 2.50456 0.125849 3.74993 0.0577599 5.15563C-0.0103288 6.36805 0.000653309 7.56948 0.000653309 8.7797C0.000653309 9.98993 -0.0103288 11.1936 0.0577599 12.4038C0.125849 13.8095 0.446525 15.057 1.47444 16.085C2.50456 17.1151 3.74993 17.4336 5.15563 17.5016C6.36805 17.5697 7.56948 17.5588 8.7797 17.5588C9.99212 17.5588 11.1936 17.5697 12.4038 17.5016C13.8095 17.4336 15.057 17.1129 16.085 16.085C17.1151 15.0548 17.4336 13.8095 17.5016 12.4038C17.5719 11.1936 17.5588 9.99212 17.5588 8.7797ZM8.77751 13.2845C6.28458 13.2845 4.27267 11.2726 4.27267 8.7797C4.27267 6.28678 6.28458 4.27487 8.77751 4.27487C11.2704 4.27487 13.2823 6.28678 13.2823 8.7797C13.2823 11.2726 11.2704 13.2845 8.77751 13.2845ZM13.4668 5.14245C12.8848 5.14245 12.4148 4.67242 12.4148 4.09037C12.4148 3.50832 12.8848 3.03829 13.4668 3.03829C14.0489 3.03829 14.5189 3.50832 14.5189 4.09037C14.5191 4.22858 14.492 4.36547 14.4392 4.49319C14.3864 4.62091 14.3089 4.73696 14.2112 4.83469C14.1134 4.93242 13.9974 5.00991 13.8697 5.06272C13.7419 5.11553 13.6051 5.14262 13.4668 5.14245Z"
+                                            fill="white" />
+                                    </svg>
+
+                                </a>
+                                <a class="group hover:scale-125 duration-300" target="_blank"
+                                    href="https://twitter.com/">
+                                    <svg width="20" height="16" viewBox="0 0 20 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path class="group-hover:fill-[#009DFF] duration-300"
+                                            d="M19.0643 2.10455C18.3771 2.40903 17.639 2.61476 16.8629 2.70775C17.6636 2.22864 18.2627 1.47457 18.5483 0.586248C17.796 1.03309 16.9727 1.34761 16.1141 1.51615C15.5367 0.899671 14.7719 0.491056 13.9385 0.35375C13.1051 0.216443 12.2497 0.358125 11.5051 0.756801C10.7604 1.15548 10.1682 1.78884 9.82046 2.55856C9.47268 3.32827 9.38874 4.19128 9.58169 5.01359C8.05737 4.93705 6.56618 4.54086 5.20489 3.85072C3.84361 3.16057 2.64264 2.19191 1.67995 1.00759C1.35078 1.5754 1.16151 2.23375 1.16151 2.93488C1.16114 3.56606 1.31657 4.18757 1.61402 4.74427C1.91146 5.30097 2.34172 5.77565 2.86661 6.12618C2.25787 6.10681 1.66257 5.94233 1.13024 5.64642V5.69579C1.13018 6.58105 1.43639 7.43906 1.99693 8.12425C2.55747 8.80943 3.3378 9.27958 4.20551 9.45492C3.64081 9.60775 3.04876 9.63026 2.47408 9.52075C2.71889 10.2825 3.19578 10.9486 3.83797 11.4258C4.48015 11.903 5.2555 12.1674 6.05545 12.1821C4.69748 13.2481 3.02041 13.8264 1.294 13.8238C0.988185 13.8239 0.682629 13.8061 0.378906 13.7703C2.13131 14.8971 4.17123 15.495 6.2546 15.4927C13.3071 15.4927 17.1625 9.6516 17.1625 4.58567C17.1625 4.42108 17.1584 4.25485 17.151 4.09027C17.9009 3.54794 18.5482 2.87636 19.0626 2.10701L19.0643 2.10455Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                                <a class="group hover:scale-125 duration-300" target="_blank"
+                                    href="https://discord.com/app">
+                                    <svg width="18" height="14" viewBox="0 0 18 14" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path class="group-hover:fill-[#009DFF] duration-300"
+                                            d="M15.2477 1.28575C14.1042 0.770043 12.8784 0.388871 11.5967 0.172127C11.5852 0.169935 11.5734 0.171348 11.5629 0.176168C11.5523 0.180989 11.5435 0.188979 11.5376 0.199033C11.3807 0.474822 11.2058 0.834319 11.0832 1.11833C9.72376 0.915215 8.34169 0.915215 6.98224 1.11833C6.84572 0.803572 6.69177 0.496664 6.5211 0.199033C6.51532 0.188856 6.50657 0.180684 6.49602 0.17561C6.48547 0.170535 6.47362 0.168799 6.46206 0.170632C5.18102 0.387377 3.95529 0.768548 2.81103 1.285C2.80119 1.28913 2.79284 1.29617 2.78712 1.30518C0.461221 4.72451 -0.176307 8.05939 0.136851 11.3524C0.137723 11.3605 0.140226 11.3683 0.144209 11.3753C0.148193 11.3824 0.153572 11.3886 0.160021 11.3935C1.51758 12.3819 3.03176 13.1348 4.63916 13.6208C4.65037 13.6242 4.66235 13.6242 4.67355 13.6207C4.68475 13.6173 4.69464 13.6105 4.70194 13.6013C5.04724 13.1379 5.35517 12.6484 5.61825 12.1342C5.63394 12.1043 5.619 12.0684 5.58761 12.0565C5.10479 11.8746 4.63698 11.6552 4.18848 11.4002C4.18042 11.3956 4.17363 11.3891 4.16872 11.3812C4.1638 11.3734 4.16092 11.3644 4.16033 11.3551C4.15974 11.3459 4.16145 11.3366 4.16532 11.3282C4.16919 11.3198 4.1751 11.3124 4.1825 11.3068C4.27667 11.2373 4.37085 11.1648 4.46053 11.0923C4.46861 11.0858 4.47833 11.0816 4.48862 11.0803C4.49892 11.079 4.50937 11.0806 4.51883 11.0848C7.45385 12.4032 10.6325 12.4032 13.5332 11.0848C13.5426 11.0803 13.5532 11.0786 13.5637 11.0797C13.5741 11.0809 13.584 11.085 13.5922 11.0916C13.6819 11.1648 13.7753 11.2373 13.8702 11.3068C13.8777 11.3123 13.8837 11.3195 13.8877 11.3279C13.8917 11.3363 13.8936 11.3455 13.8931 11.3547C13.8927 11.364 13.8899 11.373 13.8852 11.3809C13.8804 11.3889 13.8737 11.3955 13.8658 11.4002C13.4188 11.6573 12.9539 11.8748 12.4659 12.0557C12.4584 12.0584 12.4516 12.0627 12.4459 12.0683C12.4401 12.0739 12.4357 12.0806 12.4328 12.088C12.4299 12.0954 12.4286 12.1034 12.429 12.1114C12.4295 12.1193 12.4316 12.1271 12.4352 12.1342C12.7043 12.6476 13.0122 13.1364 13.3508 13.6006C13.3578 13.6101 13.3676 13.6172 13.3789 13.621C13.3901 13.6247 13.4022 13.6249 13.4136 13.6215C15.0237 13.1369 16.5404 12.3836 17.8994 11.3935C17.9061 11.3889 17.9116 11.3829 17.9158 11.3759C17.9199 11.369 17.9225 11.3612 17.9234 11.3532C18.2971 7.54593 17.297 4.23796 15.2709 1.30667C15.2659 1.29715 15.2577 1.28972 15.2477 1.28575ZM6.05697 9.34715C5.17355 9.34715 4.44484 8.54818 4.44484 7.56835C4.44484 6.58777 5.15935 5.78955 6.05697 5.78955C6.96132 5.78955 7.6833 6.59449 7.6691 7.56835C7.6691 8.54893 6.95459 9.34715 6.05697 9.34715ZM12.0174 9.34715C11.1333 9.34715 10.4053 8.54818 10.4053 7.56835C10.4053 6.58777 11.1191 5.78955 12.0174 5.78955C12.9218 5.78955 13.6438 6.59449 13.6296 7.56835C13.6296 8.54893 12.9225 9.34715 12.0174 9.34715Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollToPlugin.min.js"
         integrity="sha512-kz526itdNcpyMs18TLPOhsnIeOIO1JywWKbbF77zR+ZKpZ4gwubXhwaURHpt5Se9AAqSK2j8ID0LnfXsB2Jkjg=="
@@ -351,6 +467,9 @@
         integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="assets/js/app.js"></script>
+    <script>
+        AOS.init({ once: true });
+    </script>
 </body>
 
 </html>
